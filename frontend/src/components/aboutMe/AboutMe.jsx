@@ -1,5 +1,6 @@
 import './AboutMe.css'
 
+
 function AboutMe() {
   return (
     <div id="about" className="About-Container">
@@ -15,6 +16,7 @@ function AboutMe() {
             <p>I am a passionate web-developer with a strong foundation in frontend framework like Reactjs</p>
             <p>and also knowledge in backend framework like Expressjs, Nodejs and MongoDb.</p>
         </div>
+
     </div>
   )
 }
