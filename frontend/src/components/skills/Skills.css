@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+.Skills-Container{
+    background-color: #272727;
+    color: #FAB162;
+    padding: 10px;
+}
+
+.Skills-Header{
+    padding-top: 15px;
+    font-size: 50px;
+    text-align: center;
+    color: #FAB162;
+    font-family: 'Audiowide', sans-serif;;
+}
+
+.Skills-ImageContainer{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Skills-ImageContainer img{
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.Express-js-logo{
+    height: 100px;
+    width: 100px;
+    color: black;
+    margin-left: 5px;
+}
+
+.Mongo-logo{
+    height: 100px;
+    width: 100px;
+    color: green;
+    margin-left: 5px;
+}
+
+.Powerbi-logo{
+    height: 100px;
+    width: 100px;
+    color:#c29c15;
+    margin-left: 5px;
+}
+
+.Sql-logo{
+    height: 100px;
+    width: 100px;
+    /* color: red; */
+    color: #fa3943;
+    margin-left: 5px;
+}
+
+.First-Image-Container{
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.Second-Image-Container{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}

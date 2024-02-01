@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+.Hero-Container{
+    background-color: #272727;
+    color: #FAB162;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.Hero-Intro{
+    display: block;
+    /* font-family: 'Volkhov', serif; */
+    font-family: 'Audiowide', sans-serif;
+    padding: 10px;
+}
+
+.Hero-Intro h1{
+    font-size: 40px;
+}
+
+.Hero-Intro h2{
+    color: aliceblue;
+}
+
+.Hero-Intro button{
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Audiowide', sans-serif;
+    margin-top: 25px;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+    background-color: #272727;
+    color: aliceblue;
+    padding: 2px;
+}
+
+.Hero-Intro button:hover{
+    color: #FAB162;
+    transition: 0.5s ease-in-out;
+}
+
+.Hero-Btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Hero-Picture img{
+    height: 500px;
+    width: 500px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+/* For Extra Small Devices like phones */
+@media only screen and (max-width:575px){
+    .Hero-Container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Hero-Intro h1{
+        font-size: 20px;
+    }
+    .Hero-Intro h2{
+        font-size: 15px;
+    }
+    .Hero-Intro h3{
+        font-size: 10px;
+    }
+    .Hero-Picture img{
+        height: 200px;
+        width: 200px;
+        object-fit: fill;
+        border-radius: 50%;
+    }
+    .Hero-Intro button{
+        height: 30px;
+        width: 150px;
+        font-size: 10px;
+        font-family: 'Audiowide', sans-serif;
+        margin-top: 25px;
+        cursor: pointer;
+        border: solid;
+        border-width: 1px;
+        background-color: #272727;
+        color: aliceblue;
+        padding: 2px;
+        margin-left: 10px;
+    }
+}
+
+/* For Small Devices like Tablets */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .Hero-Container{
+        display: flex;
+        flex-direction: row;
+    }
+    .Hero-Intro h1{
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .Hero-Intro h2{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .Hero-Intro h3{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .Hero-Picture img{
+        height: 250px;
+        width: 250px;
+        object-fit: fill;
+        border-radius: 50%;
+    }
+
+    .Hero-Intro button{
+        height: 40px;
+        width: 200px;
+        font-size: 12px;
+        font-family: 'Audiowide', sans-serif;
+        margin-top: 25px;
+        cursor: pointer;
+        border: solid;
+        border-width: 1px;
+        background-color: #272727;
+        color: aliceblue;
+        padding: 2px;
+        margin-left: 10px;
+    }
+}
+
+/* For Medium Devices Like Laptops and Desktops */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .Hero-Picture img{
+        height: 250px;
+        width: 250px;
+        object-fit: fill;
+        border-radius: 50%;
+    }
+}
+
+/* For Large Devices Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+/* For Extra Large Devices  */
+@media only screen and (min-width: 1200px) {
+    
+}
+  

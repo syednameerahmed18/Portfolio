@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+
+.About-Container{
+    background-color: #272727;
+    color: #FAB162;
+}
+
+.About-Header h1{
+    padding: 10px;
+    font-size: 50px;
+    color: #FAB162;
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+}
+
+.About-Para{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.About-Para p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+/* For Extra Small Devices like phones */
+@media only screen and (max-width:575px){
+    .About-Header h1{
+        padding: 10px;
+        font-size: 20px;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;
+        text-align: center;
+    }
+    .About-Para{
+        margin-top: 10px;
+    }
+    .About-Para p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 10px;
+        padding: 3px;
+    }
+}
+
+/* For Small Devices like Tablets */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .About-Header h1{
+        padding: 10px;
+        font-size: 40px;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;
+        text-align: center;
+    }
+    .About-Para{
+        margin-top: 10px;
+    }
+    .About-Para p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 15px;
+        padding: 3px;
+    }
+}
+
+/* For Medium Devices Like Laptops and Desktops */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .About-Header h1{
+        padding: 10px;
+        font-size: 45px;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;
+        text-align: center;
+    }
+    .About-Para{
+        margin-top: 10px;
+    }
+    .About-Para p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 18px;
+        padding: 3px;
+    }
+}
+
+/* For Large Devices Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+/* For Extra Large Devices  */
+@media only screen and (min-width: 1200px) {
+    
+}
+  

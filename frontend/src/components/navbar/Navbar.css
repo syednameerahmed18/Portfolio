@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    background-color: #191919;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #FAB162;
+}
+
+.Navbar-Logo{
+    font-family: 'Audiowide', sans-serif;
+    margin-left: 30px;
+}
+
+.Navbar-elements{
+    margin-right: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Volkhov', serif;
+}
+
+.Navbar-elements a {
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.Navbar-elements a:hover{
+    color: #FAB162;
+    transition: 0.5s ease-in-out;
+}
+
+.Navbar-Hamburger{
+    display: none;
+}
+
+.Hamburger{
+    display: none;
+}
+
+.Hamburger-elements a{
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    width: 100%;
+    background-color: #191919;
+    height: 20%;
+}
+
+.Hamburger-elements a:hover{
+    color: #FAB162;
+    transition: 0.5s ease-in-out;
+}
+
+.Hamburger-close{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #191919;
+    width: 5%;
+    padding: 10px;
+    height: 20px;
+}
+
+.Hamburger-close:hover{
+    color: #FAB162;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* For Extra Small Devices like Phones */
+@media only screen and (max-width: 575px) {    
+    .Navbar-elements{
+        display: none;
+    }
+
+    .Navbar-Hamburger{
+        cursor: pointer;
+        margin-right: 10px;
+        display: flex;
+        color: aliceblue;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Navbar-Hamburger:hover{
+        color: #FAB162;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Hamburger-elements{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 20%;
+        width: 100%;
+        align-items: center; 
+        justify-content: center;
+        background-color: #191919;
+    }
+    
+}
+
+    
+
+/* For Small Devices like Tablets */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .Navbar-elements{
+        display: none;
+    }
+
+    .Navbar-Hamburger{
+        display: flex;
+        color: aliceblue;
+        cursor: pointer;
+        margin-right: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Hamburger-icon{
+        height: 18px;
+        justify-content: center;
+    }
+
+    .Navbar-Hamburger:hover{
+        color: #FAB162;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Hamburger-elements{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 20%;
+        width: 100%;
+        align-items: center; 
+        justify-content: center;
+        background-color: #191919;
+    }
+}
+
+/* For Medium Devices Like Laptops and Desktops */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .Navbar-elements a {
+    font-size: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+}
+
+/* For Large Devices Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+/* For Extra Large Devices  */
+@media only screen and (min-width: 1200px) {
+    
+}
+  
