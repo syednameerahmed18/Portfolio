@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+
+.Project-Container{
+    background-color: #272727;
+}
+
+.Project-Header{
+    padding-top: 20px;
+    color: #FAB162;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
