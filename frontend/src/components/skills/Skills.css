@@ -71,12 +71,88 @@
 
 /* For Extra Small Devices like phones */
 @media only screen and (max-width:575px){
+    .Skills-Header{
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: center;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;;
+    }
+    .Skills-ImageContainer img{
+        height: 30px;
+        width: 30px;
+        margin-left: 5px;
+    }
+    .Express-js-logo{
+        height: 30px;
+        width: 30px;
+        color: black;
+        margin-left: 5px;
+    }
     
+    .Mongo-logo{
+        height: 30px;
+        width: 30px;
+        color: green;
+        margin-left: 5px;
+    }
+    .Powerbi-logo{
+        height: 30px;
+        width: 30px;
+        color:#c29c15;
+        margin-left: 5px;
+    }
+    
+    .Sql-logo{
+        height: 30px;
+        width: 30px;
+        /* color: red; */
+        color: #fa3943;
+        margin-left: 5px;
+    }
 }
 
 /* For Small Devices like Tablets */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
-        
+    .Skills-Header{
+        padding-top: 15px;
+        font-size: 40px;
+        text-align: center;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;;
+    }
+    .Skills-ImageContainer img{
+        height: 50px;
+        width: 50px;
+        margin-left: 5px;
+    }
+    .Express-js-logo{
+        height: 50px;
+        width: 50px;
+        color: black;
+        margin-left: 5px;
+    }
+    
+    .Mongo-logo{
+        height: 50px;
+        width: 50px;
+        color: green;
+        margin-left: 5px;
+    }
+    .Powerbi-logo{
+        height: 50px;
+        width: 50px;
+        color:#c29c15;
+        margin-left: 5px;
+    }
+    
+    .Sql-logo{
+        height: 50px;
+        width: 50px;
+        /* color: red; */
+        color: #fa3943;
+        margin-left: 5px;
+    }
 }
 
 /* For Medium Devices Like Laptops and Desktops */
