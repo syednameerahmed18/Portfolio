@@ -13,6 +13,7 @@ function MainPage() {
         <AboutMe/>
         <div className="Horizontal-row"></div>
         <Skills/>
+        <div className="Horizontal-row"></div>
     </>
   )
 }
