@@ -16,14 +16,14 @@ function Skills() {
     <div id="skills" className="Skills-Container">
         <motion.div 
               initial = {{opacity: 0, scale: 0.5}}
-              animate = {{opacity:1, scale:1}}
+              whileInView={{opacity:1, scale:1}}
               transition={{duration:1, ease: "easeInOut",}} 
               className="Skills-Header">
             Skills
         </motion.div>
         <motion.div
             initial = {{opacity: 0, scale: 0.5}}
-            animate = {{opacity:1, scale:1}}
+            whileInView = {{opacity:1, scale:1}}
             transition={{duration:1, ease: "easeInOut", delay:0.2}} 
             className="Skills-ImageContainer">
             <div className="First-Image-Container">
