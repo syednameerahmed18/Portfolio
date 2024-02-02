@@ -5,6 +5,7 @@ import Projects from "../projects/Projects"
 import Skills from "../skills/Skills"
 import "./MainPage.css"
 
+
 function MainPage() {
   return (
     <>
