@@ -52,7 +52,7 @@ function AboutMe() {
             <motion.p
               initial = {{opacity: 0, scale: 0.5}}
               animate = {{opacity:1, scale:1}}
-              transition={{duration:1, ease: "easeInOut", delay:0.2}}>
+              transition={{duration:1, ease: "easeInOut", delay:0.7}}>
               and also knowledge in backend framework like Expressjs, Nodejs and MongoDb.
             </motion.p>
         </div>

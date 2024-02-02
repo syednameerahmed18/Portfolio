@@ -6,18 +6,26 @@ import nodeIcon from "../../assets/node-js.svg"
 import javaIcon from "../../assets/java.svg"
 import pythonIcon from "../../assets/python.svg"
 import reactIcon from "../../assets/react.svg"
-
 import { SiExpress, SiMongodb, SiPowerbi,  } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
+import {motion} from "framer-motion"
 
 
 function Skills() {
   return (
     <div id="skills" className="Skills-Container">
-        <div className="Skills-Header">
+        <motion.div 
+              initial = {{opacity: 0, scale: 0.5}}
+              animate = {{opacity:1, scale:1}}
+              transition={{duration:1, ease: "easeInOut",}} 
+              className="Skills-Header">
             Skills
-        </div>
-        <div className="Skills-ImageContainer">
+        </motion.div>
+        <motion.div
+            initial = {{opacity: 0, scale: 0.5}}
+            animate = {{opacity:1, scale:1}}
+            transition={{duration:1, ease: "easeInOut", delay:0.2}} 
+            className="Skills-ImageContainer">
             <div className="First-Image-Container">
                 <img src={htmlIcon} alt="HTML Icon"/>    
                 <img src={cssIcon} alt="Css Icon" />
@@ -33,7 +41,7 @@ function Skills() {
                 <SiPowerbi className="Powerbi-logo"/>
                 <TbSql className="Sql-logo"/>
             </div>
-        </div>
+        </motion.div>
     </div>
   )
 }
