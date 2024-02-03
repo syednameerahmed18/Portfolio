@@ -9,14 +9,16 @@ function Hero() {
         <motion.div 
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, ease: "easeInOut" }}>
+            transition={{ duration: 1, ease: "easeInOut" }}
+            >            
           <h1>Hi there,</h1>
           
         </motion.div>
         <motion.div 
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, ease: "easeInOut", delay:0.2 }}>
+            transition={{ duration: 1, ease: "easeInOut", delay:0.2 }}
+            >
           <h2>I am Syed Nameer Ahmed,</h2>
         </motion.div>
         <motion.div 
