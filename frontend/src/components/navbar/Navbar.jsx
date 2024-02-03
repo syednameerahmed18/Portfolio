@@ -3,6 +3,7 @@ import "./Navbar.css"
 import "../hero/Hero"
 import "../aboutMe/AboutMe"
 import "../skills/Skills"
+import "../projects/Projects"
 import {FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars, faXmark} from '@fortawesome/free-solid-svg-icons'
 import { useRef } from "react"
