@@ -31,7 +31,7 @@ function Hero() {
          className="Hero-Btn"
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.5, ease: "easeInOut", delay:0.6 }}>
+            transition={{ duration: 1, ease: "easeInOut", delay:0.6 }}>
           <button>Let's Talk</button>
           <button>Download CV</button>
         </motion.div>        
