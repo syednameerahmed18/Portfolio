@@ -13,3 +13,35 @@
     font-size: 50px;
     text-align: center;
 }
+
+.Projects{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Project-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.Project-1 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.Project-1 h1{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.Project-2{
+
+}
+
+.Project-3{
+
+}
