@@ -28,6 +28,10 @@
     /* background-color: blue; */
     padding: 20px;
     border-radius: 20px;
+    border: solid;
+    border-color: #FAB162;
+    border-width: 1px;
+    box-shadow: 10px 10px black;
 }
 
 .Project-1 img{
@@ -48,9 +52,7 @@
 }
 
 .Project-1:hover{
-    border: solid;
-    border-color: #FAB162;
-    border-width: 1px;
+    
     box-shadow: 10px 10px black;
     transition: ease-in-out;
 }
@@ -64,5 +66,9 @@
 .Project-1 p{
     margin-left: 20px;
     padding-top: 10px;
+    font-size: 20px;
+}
+
+.Project-1-link{
     font-size: 20px;
 }
