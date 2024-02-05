@@ -1,4 +1,5 @@
 import AboutMe from "../aboutMe/AboutMe"
+import ContactMe from "../contactme/ContactMe"
 import Hero from "../hero/Hero"
 import Navbar from "../navbar/Navbar"
 import Projects from "../projects/Projects"
@@ -17,6 +18,8 @@ function MainPage() {
         <Skills/>
         <div className="Horizontal-row"></div>
         <Projects/>
+        <div className="Horizontal-row"></div>
+        <ContactMe/>
     </>
   )
 }
