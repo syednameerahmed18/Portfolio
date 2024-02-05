@@ -25,6 +25,9 @@
 .Project-1{
     display: flex;
     flex-direction: row;
+    /* background-color: blue; */
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .Project-1 img{
@@ -34,14 +37,32 @@
 }
 
 .Project-1 h1{
+    color: #FAB162;
     margin-left: 20px;
     font-size: 30px;
+    
 }
 
-.Project-2{
-
+.Project-1 a{
+    text-decoration: none;
 }
 
-.Project-3{
+.Project-1:hover{
+    border: solid;
+    border-color: #FAB162;
+    border-width: 1px;
+    box-shadow: 10px 10px black;
+    transition: ease-in-out;
+}
 
+.Project-1-Desc{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Project-1 p{
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
 }
