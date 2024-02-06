@@ -79,7 +79,7 @@ function Projects() {
                 whileInView = {{opacity:1, scale:1}}
                 transition={{duration:1, ease: "easeInOut", delay:0.5}}>
               <a href="https://github.com/syednameerahmed18/CRUD"><h1>CRUD Operations Using MERN <FaExternalLinkAlt className="Projectlink"/></h1></a>
-              <p>This Project is built using MongoDb, Express js,React js, </p>
+              <p>This Project is built using MongoDb, Express js,React js </p>
               <p>and Node js. This is a simple project to demonstrate</p>
               <p>CRUD Operations</p>
             </motion.div>      

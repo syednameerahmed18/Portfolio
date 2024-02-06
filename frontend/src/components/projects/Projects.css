@@ -5,7 +5,7 @@
 .Project-Container{
     background-color: #272727;
     padding: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 .Project-Header{
@@ -35,7 +35,7 @@
     border-color: #FAB162;
     border-width: 1px;
     box-shadow: 10px 10px black;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .Project img{
@@ -55,11 +55,6 @@
     text-decoration: none;
 }
 
-.Project-1:hover{
-    
-    box-shadow: 10px 10px black;
-    transition: ease-in-out;
-}
 
 .ProjectDesc{
     display: flex;
@@ -84,21 +79,147 @@
 
 /* For Small Devices like Tablets */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+    .Project{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        /* background-color: blue; */
+        padding: 12px;
+        border-radius: 20px;
+        border: solid;
+        border-color: #FAB162;
+        border-width: 1px;
+        box-shadow: 10px 10px black;
+        margin-top: 25px;
+
+    }
+    .Project img{
+        height: 160px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    .Project h1{
+        color: #FAB162;
+        margin-left: 20px;
+        font-size: 16px; 
+    }
+    .Project p{
+        margin-left: 20px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .Projectlink{
+        font-size: 10px;
+    }
     
 }
 
 /* For Medium Devices Like Laptops and Desktops */
-@media only screen and (min-width: 767px) and (max-width: 991px) {
-    
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .Project{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        /* background-color: blue; */
+        padding: 12px;
+        border-radius: 20px;
+        border: solid;
+        border-color: #FAB162;
+        border-width: 1px;
+        box-shadow: 10px 10px black;
+        margin-top: 25px;
+
+    }
+    .Project img{
+        height: 140px;
+        width: 180px;
+        border-radius: 20px;
+    }
+    .Project h1{
+        color: #FAB162;
+        margin-left: 20px;
+        font-size: 15px; 
+    }
+    .Project p{
+        margin-left: 20px;
+        padding-top:8px;
+        font-size: 12px;
+    }
+    .Projectlink{
+        font-size: 10px;
+    }
 }
 
 /* For Large Devices Desktops */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .Project{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        /* background-color: blue; */
+        padding: 15px;
+        border-radius: 20px;
+        border: solid;
+        border-color: #FAB162;
+        border-width: 1px;
+        box-shadow: 10px 10px black;
+        margin-top: 25px;
+        
+    }
+    .Project img{
+        height: 180px;
+        width: 250px;
+        border-radius: 20px;
+    }
+    .Project h1{
+        color: #FAB162;
+        margin-left: 20px;
+        font-size: 19px; 
+    }
+    .Project p{
+        margin-left: 20px;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .Projectlink{
+        font-size: 13px;
+    }
 }
 
 /* For Extra Large Devices  */
 @media only screen and (min-width: 1200px) {
-    
+    .Project{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        /* background-color: blue; */
+        padding: 20px;
+        border-radius: 20px;
+        border: solid;
+        border-color: #FAB162;
+        border-width: 1px;
+        box-shadow: 10px 10px black;
+        margin-top: 25px;
+        
+    }
+    .Project img{
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+    }
+    .Project h1{
+        color: #FAB162;
+        margin-left: 20px;
+        font-size: 20px; 
+    }
+    .Project p{
+        margin-left: 20px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .Projectlink{
+        font-size: 15px;
+    }
 }
+
   
