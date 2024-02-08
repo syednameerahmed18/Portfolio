@@ -75,7 +75,55 @@
 
 /* For Extra Small Devices like phones */
 @media only screen and (max-width:575px){
-    
+    .Projects{
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .Project{
+        width: 55%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+        padding: 12px;
+        border-radius: 20px;
+        border: solid;
+        border-color: #FAB162;
+        border-width: 1px;
+        box-shadow: 10px 10px black;
+        margin-top: 20px;
+        align-items: center;
+
+    }
+    .Project-Header{
+        padding-top: 10px;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .Project img{
+        height: 100px;
+        width: 160px;
+        border-radius: 20px;
+    }
+    .Project h1{
+        color: #FAB162;
+        /* margin-left: 20px; */
+        font-size: 10px; 
+    }
+    .Project p{
+        /* margin-left: 20px;   */
+        padding-top: 8px;
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .Projectlink{
+        font-size: 10px;
+    }
 }
 
 /* For Small Devices like Tablets */
