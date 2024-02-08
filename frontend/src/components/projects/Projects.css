@@ -84,10 +84,9 @@
     }
     .Project{
         width: 55%;
-        height: 180px;
         display: flex;
-        flex-direction: column;
-        /* background-color: blue; */
+        /* flex-direction: column; */
+        flex-direction: row;
         padding: 12px;
         border-radius: 20px;
         border: solid;
@@ -106,20 +105,25 @@
         text-align: center;
     }
     .Project img{
-        height: 100px;
-        width: 160px;
-        border-radius: 20px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
     }
     .Project h1{
-        color: #FAB162;
+        color: aliceblue;
         /* margin-left: 20px; */
-        font-size: 10px; 
+        font-size: 11px; 
+    }
+    .Project h1:hover{
+        color: #FAB162;
+        transition: 0.5s ease-in-out;
     }
     .Project p{
         /* margin-left: 20px;   */
-        padding-top: 8px;
+        /* padding-top: 8px;
         font-size: 10px;
-        line-height: 11px;
+        line-height: 11px; */
+        display: none;
     }
     .Projectlink{
         font-size: 10px;
@@ -147,7 +151,7 @@
         border-width: 1px;
         box-shadow: 10px 10px black;
         margin-top: 20px;
-
+        align-items: center;
     }
     .Project-Header{
         padding-top: 10px;
@@ -157,20 +161,28 @@
         text-align: center;
     }
     .Project img{
-        height: 120px;
-        width: 150px;
-        border-radius: 20px;
+        /* height: 120px;
+        width: 150px; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
     }
     .Project h1{
         color: #FAB162;
         margin-left: 20px;
-        font-size: 12px; 
+        font-size: 15px; 
+        color: aliceblue;
+    }
+    .Project h1:hover{
+        color: #FAB162;
+        transition: 0.5s ease-in-out;
     }
     .Project p{
-        margin-left: 20px;
+        /* margin-left: 20px;
         padding-top: 10px;
         font-size: 10px;
-        line-height: 12px;
+        line-height: 12px; */
+        display: none;
     }
     .Projectlink{
         font-size: 10px;
@@ -217,6 +229,7 @@
         padding-top:8px;
         font-size: 12px;
         line-height: 20px;
+    
     }
     .Projectlink{
         font-size: 10px;
