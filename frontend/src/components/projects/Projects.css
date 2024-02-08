@@ -66,6 +66,7 @@
     margin-left: 20px;
     padding-top: 10px;
     font-size: 20px;
+    line-height: 30px;
 }
 
 .Projectlink{
@@ -79,6 +80,13 @@
 
 /* For Small Devices like Tablets */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+    .Projects{
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        align-items: center;
+        padding-top: 5px;
+    }
     .Project{
         width: 55%;
         display: flex;
@@ -90,23 +98,31 @@
         border-color: #FAB162;
         border-width: 1px;
         box-shadow: 10px 10px black;
-        margin-top: 25px;
+        margin-top: 20px;
 
     }
+    .Project-Header{
+        padding-top: 10px;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
     .Project img{
-        height: 160px;
-        width: 200px;
+        height: 120px;
+        width: 150px;
         border-radius: 20px;
     }
     .Project h1{
         color: #FAB162;
         margin-left: 20px;
-        font-size: 16px; 
+        font-size: 12px; 
     }
     .Project p{
         margin-left: 20px;
         padding-top: 10px;
-        font-size: 14px;
+        font-size: 10px;
+        line-height: 12px;
     }
     .Projectlink{
         font-size: 10px;
@@ -116,6 +132,14 @@
 
 /* For Medium Devices Like Laptops and Desktops */
 @media only screen and (min-width: 767px) and (max-width: 992px) {
+    .Projects{
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        align-items: center;
+        padding-top: 5px;
+    }
+    
     .Project{
         width: 55%;
         display: flex;
@@ -131,7 +155,7 @@
 
     }
     .Project img{
-        height: 140px;
+        height: 150px;
         width: 180px;
         border-radius: 20px;
     }
@@ -144,6 +168,7 @@
         margin-left: 20px;
         padding-top:8px;
         font-size: 12px;
+        line-height: 20px;
     }
     .Projectlink{
         font-size: 10px;
@@ -180,6 +205,7 @@
         margin-left: 20px;
         padding-top: 10px;
         font-size: 16px;
+        line-height: 30px;
     }
     .Projectlink{
         font-size: 13px;
@@ -215,7 +241,8 @@
     .Project p{
         margin-left: 20px;
         padding-top: 10px;
-        font-size: 18px;
+        font-size: 20px;
+
     }
     .Projectlink{
         font-size: 15px;

@@ -36,9 +36,9 @@ function Projects() {
                 whileInView = {{opacity:1, scale:1}}
                 transition={{duration:1, ease: "easeInOut", delay:0.4}}>
               <a href="https://github.com/syednameerahmed18/Ai-voice-assistant/tree/main"><h1>AI Voice Assistant Using Python <FaExternalLinkAlt className="Projectlink"/></h1></a>
-              <p>This Project is built using Python packages</p>
-              <p>like pyttsx3, speech_recognition, wikipedia</p>
-              <p>webbrowser, googlesearch.</p>
+              <p>This Project is built using Python packages
+                 like pyttsx3, speech_recognition, wikipedia
+                 webbrowser, googlesearch.</p>
             </motion.div>
           </div>
 
@@ -58,9 +58,9 @@ function Projects() {
                 whileInView = {{opacity:1, scale:1}}
                 transition={{duration:1, ease: "easeInOut", delay:0.5}}>
               <a href="https://github.com/syednameerahmed18/Brain-Tumor-Detection"><h1>Brain Tumor Detection <FaExternalLinkAlt className="Projectlink"/></h1></a>
-              <p>This Project is built using Machine Learning, algorithm</p>
-              <p>used in this project is Logistic Regression and SVC,</p>
-              <p>used matplotlib for visualization.</p>
+              <p>This Project is built using Machine Learning, algorithm
+                 used in this project is Logistic Regression and SVC,
+                 used matplotlib for visualization.</p>
             </motion.div>        
           </motion.div>
           <motion.div 
@@ -79,9 +79,9 @@ function Projects() {
                 whileInView = {{opacity:1, scale:1}}
                 transition={{duration:1, ease: "easeInOut", delay:0.5}}>
               <a href="https://github.com/syednameerahmed18/CRUD"><h1>CRUD Operations Using MERN <FaExternalLinkAlt className="Projectlink"/></h1></a>
-              <p>This Project is built using MongoDb, Express js,React js </p>
-              <p>and Node js. This is a simple project to demonstrate</p>
-              <p>CRUD Operations</p>
+              <p>This Project is built using MongoDb, Express js,React js 
+                 and Node js. This is a simple project to demonstrate
+                 CRUD Operations</p>
             </motion.div>      
           </motion.div>
         </motion.div>
