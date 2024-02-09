@@ -1,8 +1,19 @@
 import "./Hero.css"
 import picture from '../../assets/syednameerahmed.jpg'
 import {motion} from "framer-motion"
+import "../contactme/ContactMe"
 
 function Hero() {
+  // Function to Jump to Contact Section whenever it is clicked
+  const handleTalk = () => {
+    const element = document.getElementById("contact")
+    if(element){
+      element.scrollIntoView({
+        behavior:"smooth",
+      })
+    }
+  }
+
   return (
     <div id="Hero" className="Hero-Container">
       <div className="Hero-Intro">
@@ -32,7 +43,7 @@ function Hero() {
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeInOut", delay:0.6 }}>
-          <button>Let's Talk</button>
+          <button onClick={handleTalk}>Let's Talk</button>
           <button>Download CV</button>
         </motion.div>        
       </div>
