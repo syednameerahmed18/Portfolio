@@ -14,6 +14,11 @@ function Hero() {
     }
   }
 
+  const handleDownload = () => {
+    const cvUrl = "https://drive.google.com/file/d/1NCii_jBB2XqET3TY38itXDoDVXtD0V_Q/view?usp=sharing"
+    window.open(cvUrl, "_blank")
+  }
+
   return (
     <div id="Hero" className="Hero-Container">
       <div className="Hero-Intro">
@@ -44,7 +49,7 @@ function Hero() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeInOut", delay:0.6 }}>
           <button onClick={handleTalk}>Let's Talk</button>
-          <button>Download CV</button>
+          <button onClick={handleDownload}>Download CV</button>
         </motion.div>        
       </div>
       <motion.div 
