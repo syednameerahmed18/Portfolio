@@ -4,6 +4,7 @@ import "../hero/Hero"
 import "../aboutMe/AboutMe"
 import "../skills/Skills"
 import "../projects/Projects"
+import "../contactme/ContactMe"
 import {FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars, faXmark} from '@fortawesome/free-solid-svg-icons'
 import { useRef } from "react"
@@ -25,7 +26,7 @@ function Navbar() {
         <a href="#about">About Me</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a>Contact Me</a>
+        <a href="#contact">Contact Me</a>
       </div >
       
       <div className="Navbar-Hamburger">

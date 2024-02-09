@@ -102,6 +102,7 @@
     .Hero-Container{
         display: flex;
         flex-direction: row;
+        padding: 20px;
     }
     .Hero-Intro h1{
         margin-left: 10px;
@@ -117,15 +118,15 @@
     }
 
     .Hero-Picture img{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         object-fit: fill;
         border-radius: 50%;
     }
 
     .Hero-Intro button{
         height: 40px;
-        width: 200px;
+        width: 160px;
         font-size: 12px;
         font-family: 'Audiowide', sans-serif;
         margin-top: 25px;
