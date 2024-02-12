@@ -157,7 +157,38 @@
 
 /* For Medium Devices Like Laptops and Desktops */
 @media only screen and (min-width: 767px) and (max-width: 991px) {
+    .Skills-ImageContainer img{
+        height: 70px;
+        width: 70px;
+        margin-left: 5px;
+    }
+    .Express-js-logo{
+        height: 70px;
+        width: 70px;
+        color: black;
+        margin-left: 5px;
+    }
     
+    .Mongo-logo{
+        height: 70px;
+        width: 70px;
+        color: green;
+        margin-left: 5px;
+    }
+    .Powerbi-logo{
+        height: 70px;
+        width: 70px;
+        color:#c29c15;
+        margin-left: 5px;
+    }
+    
+    .Sql-logo{
+        height: 70px;
+        width: 70px;
+        /* color: red; */
+        color: #fa3943;
+        margin-left: 5px;
+    }
 }
 
 /* For Large Devices Desktops */
