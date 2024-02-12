@@ -31,11 +31,11 @@
     color: #25D366;
 }
 
-@keyframes Wa {
+/* @keyframes Wa {
     0%{
         transform: scale(0);
     }
     100%{
         transform: scale(1);
     }
-}
+} */

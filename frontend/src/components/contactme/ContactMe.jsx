@@ -20,7 +20,13 @@ function ContactMe() {
         Contact Me
       </motion.div>
       <div className="Contact-Icons">
-        <FaWhatsapp className="Wa-Icon" onClick={handleWhatsapp}/>
+        <motion.div 
+          initial = {{opacity: 0, scale: 0.5}}
+          whileInView={{opacity:1, scale:1}}
+          transition={{duration:1, ease: "easeInOut", delay: 0.2}}>
+            <FaWhatsapp  className="Wa-Icon" onClick={handleWhatsapp}/>
+        </motion.div>
+        
       </div>
     </div>
   )
