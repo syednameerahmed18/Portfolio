@@ -16,20 +16,34 @@
 
 .Contact-Icons{
     padding-top: 15px;
-    color: aliceblue;
-    text-align: center;
+    color: aliceblue;  
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .Wa-Icon{
     font-size: 50px;
-    animation-name: Wa;
-    animation-duration: 3s;
+    /* animation-name: Wa;
+    animation-duration: 3s; */
 }
 
 .Wa-Icon:hover{
     color: #25D366;
+    transition: 0.3s ease-in-out;
 }
+
+.Li-Icon{
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.Li-Icon:hover{
+    color: #0A66C2;
+    transition: 0.3s ease-in-out;
+}
+
 
 /* @keyframes Wa {
     0%{
