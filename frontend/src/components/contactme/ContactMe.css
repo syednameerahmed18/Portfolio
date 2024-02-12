@@ -13,3 +13,29 @@
     color: #FAB162;
     font-family: 'Audiowide', sans-serif;;
 }
+
+.Contact-Icons{
+    padding-top: 15px;
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Wa-Icon{
+    font-size: 50px;
+    animation-name: Wa;
+    animation-duration: 3s;
+}
+
+.Wa-Icon:hover{
+    color: #25D366;
+}
+
+@keyframes Wa {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
