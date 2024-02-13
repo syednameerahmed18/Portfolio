@@ -4,6 +4,7 @@
 .Contact-Container{
     background-color: #272727;
     color: #FAB162;
+    padding-bottom: 20px;
 }
 
 .Contact-Header{
@@ -20,7 +21,25 @@
     cursor: pointer;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
+    
+    width: 100%;
+
+}
+
+.Icon-Firstcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-left: 20px;
+}
+
+.WhatsApp{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .Wa-Icon{
@@ -29,19 +48,105 @@
     animation-duration: 3s; */
 }
 
-.Wa-Icon:hover{
+/* .Wa-Icon:hover{
     color: #25D366;
     transition: 0.3s ease-in-out;
+} */
+
+.WhatsApp-Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.WhatsApp-Content h5{
+    color: #FAB162;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.Phone{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Ph-Icon{
+    font-size: 50px;
+}
+
+.Phone-Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.Phone-Content h5{
+    color: #FAB162;
+    padding: 2px;
+    font-size: 20px;
+}
+
+
+
+/* .Li-Icon:hover{
+    color: #0A66C2;
+    transition: 0.3s ease-in-out;
+} */
+
+.Icon-Secondcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
 }
 
 .Li-Icon{
     font-size: 50px;
-    margin-left: 15px;
 }
 
-.Li-Icon:hover{
-    color: #0A66C2;
-    transition: 0.3s ease-in-out;
+.LinkedIn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.LinkedIn-Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.LinkedIn-Content h5{
+    color: #FAB162;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.Gmail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.Gmail-Icon{
+    font-size: 50px;
+}
+
+.Gmail-Content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.Gmail-Content h5{
+    color: #FAB162;
+    padding: 2px;
+    font-size: 20px;
 }
 
 
@@ -53,3 +158,34 @@
         transform: scale(1);
     }
 } */
+
+
+
+/* For Extra Small Devices like Phones */
+@media only screen and (max-width: 575px) {    
+    
+    
+}
+
+    
+
+/* For Small Devices like Tablets */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    
+}
+
+/* For Medium Devices Like Laptops and Desktops */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+
+}
+
+/* For Large Devices Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+/* For Extra Large Devices  */
+@media only screen and (min-width: 1200px) {
+    
+}
+  
