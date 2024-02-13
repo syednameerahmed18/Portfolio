@@ -4,9 +4,19 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
+import { useState } from "react";
 
-function ContactMe() {
+
+function ContactMe ( ) {
   // Function to Redirect to Whatsapp chat
+  const [emailCopy, setEmailCopy] = useState('syednameerahmed18@gmail.com')
+
+
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText(emailCopy)
+    
+  }
+
   const handleWhatsapp = () => {
     const phoneNumber = "+918310782008"
     const whatsappURL = `https://wa.me/${phoneNumber}`
@@ -17,6 +27,7 @@ function ContactMe() {
     const LinkedInURL = "https://www.linkedin.com/in/syed-nameer-034378205/"
     window.open(LinkedInURL, "_blank")
   }
+
 
   return (
     <div id="contact" className="Contact-Container">
@@ -73,10 +84,10 @@ function ContactMe() {
               initial = {{opacity: 0, scale: 0.5}}
               whileInView={{opacity:1, scale:1}}
               transition={{duration:1, ease: "easeInOut", delay: 0.4}}>
-                <BiLogoGmail  className="Gmail-Icon" />
-                <div className="Gmail-Content">
+                <BiLogoGmail  className="Gmail-Icon"/>
+                <div className="Gmail-Content" onClick={handleCopyEmail}  >
                   <h5>E-mail Me:</h5>
-                  <p>syednameerahmed18@gmail.com</p>
+                  <p>{emailCopy}</p>
                 </div>
             </motion.div>
         </div>

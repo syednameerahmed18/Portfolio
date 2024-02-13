@@ -31,8 +31,7 @@
 .Icon-Firstcolumn{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;   
     margin-left: 20px;
 }
 
