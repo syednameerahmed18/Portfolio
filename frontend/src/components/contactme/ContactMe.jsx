@@ -10,11 +10,16 @@ import { useState } from "react";
 function ContactMe ( ) {
   // Function to Redirect to Whatsapp chat
   const [emailCopy, setEmailCopy] = useState('syednameerahmed18@gmail.com')
+  const [numberCopy, setNumberCopy] = useState('+91 8310782008')
 
-
+  // Function to copy email on click
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailCopy)
-  
+  }
+
+  // Function to copy number on click
+  const handleCopyNumber = () => {
+    navigator.clipboard.writeText(numberCopy)
   }
 
   const handleWhatsapp = () => {
@@ -46,9 +51,9 @@ function ContactMe ( ) {
               whileInView={{opacity:1, scale:1}}
               transition={{duration:1, ease: "easeInOut", delay: 0.2}}>
                 <FaPhoneSquareAlt  className="Ph-Icon" />
-                <div className="Phone-Content">
+                <div className="Phone-Content" onClick={handleCopyNumber}>
                   <h5>Phone Number:</h5>
-                  <p>+91 8310782008</p>
+                  <p>{numberCopy}</p>
                 </div>
             </motion.div>
             <motion.div
