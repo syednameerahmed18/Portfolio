@@ -3,7 +3,69 @@
 
 .Footer-Container{
     background-color: #191919;
-    height: 80px;
+    height: 100px;
     width: 100%;
     color:  #FAB162;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Footer-Items{
+    padding-top: 20px;
+}
+
+.Footer-Content{
+    text-align: center;
+}
+
+.Footer-Title{
+    text-align: center;
+    color: aliceblue;
+}
+
+.Vertical-Bar{
+    height: 50px;
+    background-color: #FAB162;
+    margin-top: 20px; 
+    width: 2px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.Copyright{
+    color: #FAB162;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Copyright p{
+    margin-right: 3px;
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Link-Icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Insta{
+    color: aliceblue;
+}
+
+.Github{
+    color: aliceblue;
+}
+
+.LinkedIn{
+    color: aliceblue;
 }
