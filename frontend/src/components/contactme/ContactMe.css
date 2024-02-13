@@ -170,6 +170,54 @@
         color: #FAB162;
         font-family: 'Audiowide', sans-serif;;
     }   
+    .Wa-Icon{
+        font-size: 25px;
+    }
+    .Gmail-Icon{
+        font-size: 25px;
+    }
+    .Li-Icon{
+        font-size: 25px;
+    }
+    .Ph-Icon{
+        font-size: 25px;
+    }
+    .LinkedIn-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 12px;
+    }
+    .LinkedIn-Content p{
+        font-size: 10px;
+    }
+
+    .Gmail-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 12px;
+    }
+    .Gmail-Content p{
+        font-size: 10px;
+    }
+
+    .WhatsApp-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .WhatsApp-Content p{
+        font-size: 10px;
+    }
+
+    .Phone-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 12px;
+    }
+    .Phone-Content p{
+        font-size: 10px;
+    }
 }
 
     
