@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+.Footer-Container{
+    background-color: #191919;
+    height: 80px;
+    width: 100%;
+    color:  #FAB162;
+}

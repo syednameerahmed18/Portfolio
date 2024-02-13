@@ -1,5 +1,6 @@
 import AboutMe from "../aboutMe/AboutMe"
 import ContactMe from "../contactme/ContactMe"
+import Footer from "../footer/Footer"
 import Hero from "../hero/Hero"
 import Navbar from "../navbar/Navbar"
 import Projects from "../projects/Projects"
@@ -20,6 +21,7 @@ function MainPage() {
         <Projects/>
         <div className="Horizontal-row"></div>
         <ContactMe/>
+        <Footer/>
     </>
   )
 }
