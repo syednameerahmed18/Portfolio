@@ -21,6 +21,7 @@
 
 .Footer-Title{
     text-align: center;
+    font-family: 'Audiowide', sans-serif;
     color: aliceblue;
 }
 
@@ -99,3 +100,32 @@
     color: #FAB162;
     transition: 0.2s ease-in-out;
 }
+
+
+/* For Extra Small Devices like Phones */
+@media only screen and (max-width: 575px) {    
+    
+}
+
+    
+
+/* For Small Devices like Tablets */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    
+}
+
+/* For Medium Devices Like Laptops and Desktops */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    
+}
+
+/* For Large Devices Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+/* For Extra Large Devices  */
+@media only screen and (min-width: 1200px) {
+    
+}
+  
