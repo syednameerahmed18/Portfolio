@@ -7,10 +7,16 @@ import { FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <div className="Footer-Container">
-      <div className="Copyright">
-        <p>Copyright</p>
-        <AiOutlineCopyright/>
+      <div className="Left-Footer">
+        <div className="Copyright">
+            <p>Copyright</p>
+            <AiOutlineCopyright/>
+        </div>
+        <div>
+          <p>2024</p>
+        </div>
       </div>
+
       <div className="Vertical-Bar"></div>
       <div className="Footer-Items">
         <div className="Footer-Content">
@@ -22,11 +28,11 @@ function Footer() {
       </div>
       <div className="Vertical-Bar"></div>
       <div className="Links">
-        <p>Follow me on</p>
+        <p>Follow me on: </p>
         <div className="Link-Icons">
           <FaInstagram className="Insta"/>
           <FaGithub className="Github"/>
-          <FaLinkedin className="LinkedIn"/>
+          <FaLinkedin className="LinkedIn-Footer"/>
         </div>
       </div>
     </div>

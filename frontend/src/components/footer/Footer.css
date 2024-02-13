@@ -9,13 +9,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 .Footer-Items{
     padding-top: 20px;
 }
 
 .Footer-Content{
-    text-align: center;
+    text-align: center;    
 }
 
 .Footer-Title{
@@ -40,32 +41,61 @@
     justify-content: center;
 }
 
+.Left-Footer{
+    color: #FAB162;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .Copyright p{
     margin-right: 3px;
+    
 }
 
 .Links{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .Link-Icons{
+    padding: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
+
 
 .Insta{
     color: aliceblue;
+    margin-right: 4px;
+}
+
+.Insta:hover{
+    color: #FAB162;
+    transition: 0.2s ease-in-out;
 }
 
 .Github{
     color: aliceblue;
+    margin-right: 4px;
 }
 
-.LinkedIn{
+.Github:hover{
+    color: #FAB162;
+    transition: 0.2s ease-in-out;
+}
+
+.LinkedIn-Footer{
     color: aliceblue;
+}
+
+.LinkedIn-Footer:hover{
+    color: #FAB162;
+    transition: 0.2s ease-in-out;
 }
