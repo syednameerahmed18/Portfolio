@@ -163,20 +163,79 @@
 
 /* For Extra Small Devices like Phones */
 @media only screen and (max-width: 575px) {    
-    
-    
+    .Contact-Header{
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: center;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;;
+    }   
 }
 
     
 
 /* For Small Devices like Tablets */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
-    
+    .Contact-Header{
+        padding-top: 15px;
+        font-size: 40px;
+        text-align: center;
+        color: #FAB162;
+        font-family: 'Audiowide', sans-serif;
+    }
+    .Wa-Icon{
+        font-size: 35px;
+    }
+    .Gmail-Icon{
+        font-size: 35px;
+    }
+    .Li-Icon{
+        font-size: 35px;
+    }
+    .Ph-Icon{
+        font-size: 35px;
+    }
+    .LinkedIn-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 15px;
+    }
+    .LinkedIn-Content p{
+        font-size: 12px;
+    }
+
+    .Gmail-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 15px;
+    }
+    .Gmail-Content p{
+        font-size: 12px;
+    }
+
+    .WhatsApp-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .WhatsApp-Content p{
+        font-size: 12px;
+    }
+
+    .Phone-Content h5{
+        color: #FAB162;
+        padding: 2px;
+        font-size: 15px;
+    }
+    .Phone-Content p{
+        font-size: 12px;
+    }
 }
 
 /* For Medium Devices Like Laptops and Desktops */
 @media only screen and (min-width: 767px) and (max-width: 991px) {
-
+    
 }
 
 /* For Large Devices Desktops */

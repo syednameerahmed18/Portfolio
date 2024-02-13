@@ -60,7 +60,7 @@ function ContactMe() {
               className="WhatsApp"
               initial = {{opacity: 0, scale: 0.5}}
               whileInView={{opacity:1, scale:1}}
-              transition={{duration:1, ease: "easeInOut", delay: 0.4}}>
+              transition={{duration:1, ease: "easeInOut", delay: 0.2}}>
                 <FaWhatsapp  className="Wa-Icon" />
                 <div className="WhatsApp-Content">
                   <h5>WhatsApp Me:</h5>
