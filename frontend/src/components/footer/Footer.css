@@ -9,11 +9,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.Footer-Items{
-    padding-top: 20px;
-}
+/* .Footer-Items{
+    padding-top: px;
+} */
 
 .Footer-Content{
     text-align: center;    
@@ -28,7 +29,6 @@
 .Vertical-Bar{
     height: 50px;
     background-color: #FAB162;
-    margin-top: 20px; 
     width: 2px;
     margin-right: 50px;
     margin-left: 50px;
@@ -38,7 +38,7 @@
     color: #FAB162;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -102,21 +102,136 @@
 }
 
 
+
+
 /* For Extra Small Devices like Phones */
 @media only screen and (max-width: 575px) {    
-    
+    .Footer-Container{
+        background-color: #191919;
+        height: 60px;
+        width: 100%;
+        color:  #FAB162;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Vertical-Bar{
+        height: 30px;
+        background-color: #FAB162;
+        width: 2px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .Footer-Content p{
+        font-size: 8px;
+    }
+    .Footer-Title h1{
+        font-size: 12px;
+    }
+    .Left-Footer p{
+        font-size: 10px;
+    }
+    .Insta{
+        font-size: 10px;
+    }
+    .Github{
+        font-size: 10px;
+    }
+    .LinkedIn-Footer{
+        font-size: 10px;
+    }
+    .Links p{
+        font-size: 10px;
+    }
 }
 
-    
 
 /* For Small Devices like Tablets */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
-    
+    .Footer-Container{
+        background-color: #191919;
+        height: 80px;
+        width: 100%;
+        color:  #FAB162;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Vertical-Bar{
+        height: 50px;
+        background-color: #FAB162;
+        width: 2px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .Footer-Content p{
+        font-size: 12px;
+    }
+    .Footer-Title h1{
+        font-size: 20px;
+    }
+    .Left-Footer p{
+        font-size: 12px;
+    }
+    .Insta{
+        font-size: 12px;
+    }
+    .Github{
+        font-size: 12px;
+    }
+    .LinkedIn-Footer{
+        font-size: 12px;
+    }
+    .Links p{
+        font-size: 12px;
+    }
 }
 
 /* For Medium Devices Like Laptops and Desktops */
 @media only screen and (min-width: 767px) and (max-width: 991px) {
-    
+    .Footer-Container{
+        background-color: #191919;
+        height: 80px;
+        width: 100%;
+        color:  #FAB162;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Vertical-Bar{
+        height: 50px;
+        background-color: #FAB162;
+        width: 2px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .Footer-Content p{
+        font-size: 15px;
+    }
+    .Footer-Title h1{
+        font-size: 30px;
+    }
+    .Left-Footer p{
+        font-size: 15px;
+    }
+    .Insta{
+        font-size: 15px;
+    }
+    .Github{
+        font-size: 15px;
+    }
+    .LinkedIn-Footer{
+        font-size: 15px;
+    }
+    .Links p{
+        font-size: 15px;
+    }
 }
 
 /* For Large Devices Desktops */
